@@ -8,5 +8,5 @@ function roundUp(input, precision){
 function clock(refreshfreq){
     var dt = new Date();
     var output = dt.toLocaleTimeString();
-    setTimeout(clock, refreshfreq)
+    setTimeout(clock, refreshfreq);
 }
